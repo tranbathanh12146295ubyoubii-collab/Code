@@ -52,6 +52,9 @@ public class AnalogClock extends JPanel implements Observer {
 	public void update(Clock clock) {
 		// TODO Auto-generated method stub
 		h = clock.getHour();
+		if (h >= 12) {
+			h -= 12;
+		}
 		m = clock.getMinute();
 		s = clock.getSecond();
 		repaint();
