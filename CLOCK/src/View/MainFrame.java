@@ -1,14 +1,10 @@
+package  View;
 
-package View;
 
-import java.awt.BorderLayout;
-import java.awt.Container;
+import Model.*;
+import java.awt.*;
+import javax.swing.*;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-
-import Model.Clock;
 
 public class MainFrame extends JFrame {
 	CardPanel cardPanel;

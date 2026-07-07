@@ -1,13 +1,11 @@
 package View;
 
-import java.awt.BorderLayout;
+import Model.*;
 import java.awt.Font;
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import Model.*;
 
 
 public class DigitalClock extends JPanel implements Observer {

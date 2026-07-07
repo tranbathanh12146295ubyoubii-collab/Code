@@ -1,14 +1,11 @@
-package View;
+package  View;
 
+import Model.*;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.JPanel;
-
-import Model.Clock;
-import Model.Observer;
 
 public class AnalogClock extends JPanel implements Observer {
 	int h = 0, m = 0, s = 0;
